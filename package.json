@@ -4,7 +4,8 @@
 	"version": "0.0.1",
 	"license": "UNLICENSED",
 	"bin": {
-		"wordle-solved-cli": "index.js"
+		"wordle-solved-cli": "index.js",
+		"wordle": "index.js"
 	},
 	"author": {
 		"name": "Ahmad Awais",

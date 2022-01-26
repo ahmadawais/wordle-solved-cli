@@ -12,6 +12,7 @@ const alert = require('cli-alerts');
 const init = require('./utils/init');
 const cli = require('./utils/cli');
 const log = require('./utils/log');
+const print = require('./utils/print');
 const { wordToday, wordYesterday, wordTomorrow } = require('./utils/solve');
 
 const input = cli.input;
@@ -22,9 +23,9 @@ const { clear, debug } = flags;
 	init({ clear });
 	input.includes(`help`) && cli.showHelp(0);
 
-	alert({ type: `success`, msg: wordToday, name: `TODAY` });
-	alert({ type: `warning`, msg: wordYesterday, name: `YESTERDAY` });
-	alert({ type: `info`, msg: wordTomorrow, name: `TOMORROW` });
+	print({ title: `TODAY`, word: wordToday });
+	print({ title: `YESTERDAY`, word: wordYesterday });
+	print({ title: `TOMORROW`, word: wordTomorrow });
 
 	debug && log(flags);
 })();

@@ -22,8 +22,8 @@ let today = new Date();
 let yesterday = new Date().setDate(today.getDate() - 1);
 let tomorrow = new Date().setDate(today.getDate() + 1);
 
-const wordToday = getWordOfTheDay(today);
-const wordYesterday = getWordOfTheDay(yesterday);
-const wordTomorrow = getWordOfTheDay(tomorrow);
+const wordToday = getWordOfTheDay(today).split('');
+const wordYesterday = getWordOfTheDay(yesterday).split('');
+const wordTomorrow = getWordOfTheDay(tomorrow).split('');
 
 module.exports = { wordToday, wordYesterday, wordTomorrow };

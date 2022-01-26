@@ -32,6 +32,18 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.1.0](https://github.com/ahmadawais/wordle-solved-cli/compare/1.0.0...1.1.0)
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Everything you need to know [`ec5f76a`](https://github.com/ahmadawais/wordle-solved-cli/commit/ec5f76a62c0d97f31c8e8e9b38bca850a9520cfc) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: 1.0.0
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
@@ -39,6 +51,10 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 > 📦 Aaand we are done [`418f000`](https://github.com/ahmadawais/wordle-solved-cli/commit/418f000c780960994dee7f596fefbdbf0c665145) <br>
 > 📦 First commit [`fae4ac9`](https://github.com/ahmadawais/wordle-solved-cli/commit/fae4ac9c856f9fea212e7fd4df492d5befc109b9) <br>
 > 📦 Type [`fba2f23`](https://github.com/ahmadawais/wordle-solved-cli/commit/fba2f2353e3842a7ddfc4700768cebc53cbe288f) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`da47332`](https://github.com/ahmadawais/wordle-solved-cli/commit/da47332d10ee82f796de815853bdf4fba8c47432) <br>
 
 <br>
 

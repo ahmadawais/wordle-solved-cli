@@ -1,0 +1,37 @@
+{
+	"name": "wordle-solved-cli",
+	"description": "CLI to to solve your Wordle puzzle daily",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"wordle-solved-cli": "index.js"
+	},
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais/"
+	},
+	"keywords": [
+		"wordle-solved-cli",
+		"Ahmad Awais"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^5.0.0",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^2.0.2",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	}
+}

@@ -47,6 +47,8 @@ Once you have installed the CLI globally with `npx wordle-solved-cli` you can ru
 wordle
 ```
 
+[![⚙️](https://raw.githubusercontent.com/ahmadawais/wordle-solved-cli/main/.github/wordle-solved-cli.gif)][repo]
+
 #### COMMANDS
 
 ```sh

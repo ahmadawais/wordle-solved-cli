@@ -1,7 +1,7 @@
 {
 	"name": "wordle-solved-cli",
 	"description": "CLI to to solve your Wordle puzzle daily",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"license": "UNLICENSED",
 	"bin": {
 		"wordle-solved-cli": "index.js",

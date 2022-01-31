@@ -18,7 +18,7 @@
 
 - 📦 CLI that solves Wordle puzzles for you
 - 🤯 Automatic prediction of the upcoming word tomorrow
-- 👨‍🏫 Learn automate anything: [NodeCLI.com][n] automation with JavaScript
+- 👨‍🏫 Learn to automate anything: [NodeCLI.com][n] automation with JavaScript
 
 <br>
 
@@ -27,11 +27,11 @@
 ## Install
 
 ```sh
-# Recommended.
-npx wordle-solved-cli
-
-# OR an alternative global install.
+# Global install.
 npm install -g wordle-solved-cli
+
+# OR run in one go.
+npx wordle-solved-cli
 ```
 
 <br>
@@ -40,20 +40,10 @@ npm install -g wordle-solved-cli
 
 ## Usage
 
-1. Run the CLI using
+Once you have installed the CLI globally with `npx wordle-solved-cli` you can run it with `wordle` command.
 
 ```sh
-npx wordle-solved-cli
-
-# OR for global install
-wordle-solved-cli
-# OR alias for global install
-wordle
-```
-
-#### BASIC USAGE
-
-```sh
+# Run the following command anywhere.
 wordle
 ```
 

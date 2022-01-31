@@ -32,11 +32,27 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.4.0](https://github.com/ahmadawais/wordle-solved-cli/compare/1.3.0...1.4.0)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 GIF [`225d28f`](https://github.com/ahmadawais/wordle-solved-cli/commit/225d28fcafca33f417fd48129a1f662a644504e1) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.3.0](https://github.com/ahmadawais/wordle-solved-cli/compare/1.2.0...1.3.0)
 
 ![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 > 👌 Lingo [`db0d97b`](https://github.com/ahmadawais/wordle-solved-cli/commit/db0d97bce0b1c3fc8a5084a7db337798d880e73d) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`534860e`](https://github.com/ahmadawais/wordle-solved-cli/commit/534860e01f551e55dc2cd3422a2c1c984bac3e5a) <br>
 
 <br>
 

@@ -1,6 +1,6 @@
-const wordList = require('./list');
+const wordleWords = require('./list');
 
-function getDateDifference(e, a) {
+function convertDateToIndex(e, a) {
 	let s = new Date(e),
 		t = new Date(a).setHours(0, 0, 0, 0) - s.setHours(0, 0, 0, 0);
 	return Math.floor(t / 864e5);
@@ -8,22 +8,22 @@ function getDateDifference(e, a) {
 
 let baseDate = new Date(2021, 5, 19, 0, 0, 0, 0);
 
-function callGetDateDifference(todaysDate) {
-	return getDateDifference(baseDate, todaysDate);
+function getIndex(todaysDate) {
+	return convertDateToIndex(baseDate, todaysDate);
 }
 
-function getWordOfTheDay(today) {
+function getSolution(today) {
 	let a,
-		s = callGetDateDifference(today);
-	return (a = s % wordList.length), wordList[a];
+		s = getIndex(today);
+	return (a = s % wordleWords.length), wordleWords[a];
 }
 
 let today = new Date();
 let yesterday = new Date().setDate(today.getDate() - 1);
 let tomorrow = new Date().setDate(today.getDate() + 1);
 
-const wordToday = getWordOfTheDay(today).split('');
-const wordYesterday = getWordOfTheDay(yesterday).split('');
-const wordTomorrow = getWordOfTheDay(tomorrow).split('');
+const wordToday = getSolution(today).split('');
+const wordYesterday = getSolution(yesterday).split('');
+const wordTomorrow = getSolution(tomorrow).split('');
 
 module.exports = { wordToday, wordYesterday, wordTomorrow };
